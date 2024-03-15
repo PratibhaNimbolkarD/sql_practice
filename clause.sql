@@ -16,5 +16,5 @@ GROUP BY city
 HAVING COUNT(*) >= 2;
 
 SELECT *
-FROM student
-ORDER BY branch, roll_no DESC;
+FROM students
+ORDER BY age, roll_no DESC;
