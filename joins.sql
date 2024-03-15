@@ -49,7 +49,7 @@ SELECT
     e.first_name AS emp_first_name,
     e.last_name AS emp_last_name,
     e.department AS emp_department
-FROM administrators a
+FROM administrators e
 LEFT JOIN employees e ON a.admin_id = e.admin_id;
 
 SELECT 
