@@ -106,4 +106,4 @@ GROUP BY city;
 SELECT city, COUNT(*) AS teacher_count
 FROM teacher
 GROUP BY city
-HAVING COUNT(*) >= 2;
+HAVING COUNT(*) >= 1;
