@@ -35,5 +35,5 @@ SELECT
     COUNT(*) AS Total_Students,
     MIN(age) AS Youngest_Student_Age,
     MAX(age) AS Oldest_Student_Age,
-    AVG(age) AS Average_Student_Age
+
 FROM student;
